@@ -8,22 +8,30 @@
 }
 
 body{
-    overflow: hidden;
+    overflow: auto;
 }
 
+body header{
+    position:relative;
+}
 #menu-principal{
-    position: sticky;
+    display: flex;
     top: 0px;
     display: flex;
     text-align: left;
-    background-color:#0D45C1;
-    margin-left: -2rem;
+    background-color: #02134E;
+    margin-left: -1rem;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.114);
+    padding-bottom: 0.5rem;
+    
 }
 
+
 #menu-principal img{
-    width: 17.5rem;
-    padding: 1rem 1rem 1rem 13rem ;
+    display: block;
+    width: 36%;
+    height: 10%;
+    padding: 1rem 0rem 1rem 10rem ;
     margin-bottom: -2%;
     margin-right: 10%;
 }
@@ -32,13 +40,15 @@ body{
     display: flex;
     list-style: none;
     margin-top: 3rem;
-    margin-left: 15%;
+    justify-content:center;
+    padding: 0%;
+    margin-left: 8rem;
 }
 
 .menu-itens > li{
     display: flex;
     margin-left: 8%;
-    text-align: center;
+    align-items: center;
     color: white;
     transition: color   0.3s ease;
     cursor: pointer;
@@ -48,25 +58,42 @@ body{
     color: rgb(132, 132, 3);
 }
 
-.texto{
-    background-color: #E8E8E8;
+#carouselExampleCaptions{
     display: flex;
     width: 100%;
-    text-align: center;
-    padding-bottom: 5%;
 }
 
-.texto img{
-    width: 15%;
-    margin-top: 2.5%;
-    margin-left: 10%;
+.texto_slide_1{
+    box-shadow: black;
+    color: black;
+    background-color: black;
+
+}
+
+.apresentação_loja{
+    display: inline; 
 }
 
 .texto_itens{
     display: flex;
+    margin-right: 15%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding: 0%;
+}
+.texto_itens img{
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.texto_itens{
+    display: flex;
+    justify-content: right;
     align-items: center;
-    border-top: 10%;
-    margin-left: 7%;   
+    margin-bottom: -4%;
+    padding: 0%;
+    
 }
 
 .texto_itens p{
@@ -80,17 +107,50 @@ body{
     font-size: 29pt;
 }
 
-.texto button{
-    display: flex;
-    margin-top: 230%;
-    margin-left: -510%;
+#Saiba_mais{
+    display: inline ;
+    width: 10%;
+    height: 5%;
+    margin-left: 40rem;
+    margin-top: 1%;
     background-color: #0D45C1;
     color: #E8E8E8;
-    padding: 2% 12%;
-    border-color: #0D45C1;
+
+
 }
 
 .texto button:hover{
     
     color: black;
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    font-family: Inter;
+    color: white;
+    justify-content: center;
+    margin-top: 8%;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    text-align: left;
+    background-color: #02134E;
+    margin-left: -1rem;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.114);
+    padding-bottom: 0.5rem;
+}
+
+footer .contato{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+footer .contato h1{
+    font-size: 19pt;
 }
