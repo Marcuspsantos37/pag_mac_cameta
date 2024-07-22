@@ -107,7 +107,7 @@ body header{
     font-size: 29pt;
 }
 
-#Saiba_mais{
+.Saiba_mais{
     display: inline ;
     width: 10%;
     height: 5%;
@@ -119,12 +119,75 @@ body header{
 
 }
 
-.texto button:hover{
-    
+#saiba_mais_maconaria:hover{
+    background-color: rgb(236, 236, 232);
+    color: black;
+}
+#row_noticias{
+    background-color: rgb(221, 227, 229);
+}
+hr{
+    color: black;
+}
+
+#row_noticias h3{
+    padding-top: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+#row_noticias p{
+    text-align: center;
+}
+.coluna_noticias ul{
+    display:flex;
+}
+
+.coluna_noticias ul li{
+    list-style: none;
+}
+
+.linha_noticia{
+    display:contents;
+}
+.noticia{
+    #background-color: bisque;
+    width: 20%;
+    height:10% ;
+    text-align: center;
+    margin-left: 2rem;
+    padding-bottom: 16rem;
+}
+
+.noticia p{
+    font-size: 12pt;
+}
+.noticia a{
+    background-color: #02134E;
+    padding: 1% 2% 1% 2%;
+    border-radius: 0%;
+    text-decoration: none white;
+    color: white;
+    font-size: 12pt;
+}
+
+.noticia:hover{
+    background-color: darkgrey;
+}
+
+.noticia a:hover{
+    background-color: rgb(132, 132, 3);
     color: black;
 }
 
 
+
+.imagem_noticias{
+    width: 90%;
+    margin-top: 1rem;
+
+}
 
 
 
