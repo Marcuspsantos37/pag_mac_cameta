@@ -184,8 +184,14 @@ hr{
 .imagem_noticias{
     width: 90%;
     margin-top: 1rem;
-
 }
+
+.container{
+    display: grid;
+    grid-area: i1;
+    
+}
+
 
 .break_news{
     font-size:2rem;
